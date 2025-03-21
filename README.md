@@ -1,13 +1,13 @@
-# Boludle
+# Tucudle
 
-https://www.boludle.com/
+https://www.tucudle.com.ar/
 
 Fork from https://github.com/cwackerfuss/react-wordle
 
 To deploy:
 
 ```bash
-$> cd boludle
+$> cd tucudle
 $> npm install
 $> npm run deploy
 ```
