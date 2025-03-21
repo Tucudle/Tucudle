@@ -6,305 +6,330 @@ type Definition = {
 
 const DEFINITIONS: Definition[] = [
   {
-    word: 'cacha',
-    definition: 'del verbo "cachar", sinónimo de entender.',
-    example: 'cachás lo que te estoy diciendo, Juli?',
+    word: 'chivo',
+    definition: 'Persona masculina que sufrió una infidelidad.',
+    example: 'Viste que al de la esquina lo han hecho chivo?',
   },
   {
-    word: 'afano',
-    definition: 'sinónimo de robo.',
+    word: 'sonsa',
+    definition: 'Persona torpe.',
+    example: 'Vei que so sonsa vo?',
+  },
+  {
+    word: 'chiva',
+    definition: 'Persona del sexo femenino que sufrió una infidelidad.',
     example:
-      'che Anita, cómo les fue en el partido?" "perdimos... pero fue alto afano, el árbitro estaba re comprado',
+    'Changa date cuenta, sos semejante chiva.',
   },
   {
-    word: 'morfi',
-    definition: 'sinónimo de comida.',
+    word: 'maver',
+    definition: 'Expresión cuyo significado es: ¿A ver?.',
     example:
-      'Eu, ya está listo el morfi?" "Falta un toque todavía Stephie, vení a ayudar',
+    'Mave mostrame que compraste.',
   },
   {
-    word: 'pucho',
-    definition: 'sinónimo de cigarrillo.',
-    example: 'Alguien me invita a un puchito?" "Na bueno, te re confiaste Euge',
-  },
-  {
-    word: 'bardo',
-    definition: 'sinónimo de lío, quilombo.',
+    word: 'ramia',
+    definition: 'Expresion cuyo sinonimo es arrastrar.',
     example:
-      'Eu Lucas no sabés, solo una persona aprobó el parcial" "Uf, se le va a armar alto bardo al profesor',
-  },
-  {
-    word: 'crack',
-    definition: 'dícese de alguien que es muy bueno para algo.',
-    example:
-      'Boludle, viste cómo toca la guitarra Guille?" "Siii, tremendo, es un crack',
-  },
-  {
-    word: 'mufar',
-    definition: 'causar mala suerte.',
-    example:
-      'El clima va a estar súper lindo en la costa la semana que viene!" "Noo Ceci que la vas a mufar, tocate la teta izquierda',
-  },
-  {
-    word: 'ñaupa',
-    definition: 'sinónimo de antiguo.',
-    example:
-      'Che abu, me re gustan tus zapatos, están re a la moda" "No me digas... Si son del año del ñaupa!',
-  },
-  {
-    word: 'forro',
-    definition: 'sinónimo de profiláctico, sinónimo de mala persona.',
-    example:
-      'Boludle, anoche en el boliche un chabón me robó, y me sacó hasta el forro que tenía en la billetera..." "Hay que ser forro eh, posta me decís?',
-  },
-  {
-    word: 'ladri',
-    definition: 'persona que obtiene éxito sin esforzarse.',
-    example:
-      'Santi no hizo nada del TP y aprobó gracias a nosotras, que bronca" "Y si Lula, no se podía esperar otra cosa de ese ladri',
-  },
-  {
-    word: 'boton',
-    definition: 'sinónimo de delator, alcahuete.',
-    example:
-      'Trini te acabaste todas las galletitas otra vez, le voy a decir a mamá" "Nooooo Fede dale no seas botón',
-  },
-  {
-    word: 'pando',
-    definition:
-      'sinónimo de playo, bajo en profunidad. (De uso popular en Mendoza.)',
-    example:
-      'Maaa, Sofi no me presta el flota flota!!" "Basta eh, que los hago venir a lo pando de la pile',
-  },
-  {
-    word: 'pingo',
-    definition: 'sinónimo de pene.',
-    example:
-      'ugh odio la música de Taylor Swift, no sé como te gusta tanto Oli" "con todo respeto Juan, chupame el pingo',
-  },
-  {
-    word: 'bondi',
-    definition: 'sinónimo de colectivo, bus.',
-    example:
-      'che Sebas, media pila, por dónde andás?" "sigo en la parada del bondi, te juro que ya estuve esperando como por media hora!',
-  },
-  {
-    word: 'guita',
-    definition: 'sinónimo de dinero.',
-    example:
-      'hola Ale, salimos mañana?" "no puedo, me gasté toda la guita del mes en el queso rallado reggianito de la serenisma',
-  },
-  {
-    word: 'ñoqui',
-    definition: 'aquel que cobra un sueldo sin trabajar',
-    example:
-      'che Mati ya jugaste al boludle de hoy?" "si, y en horario de trabajo. creo que me convertí en un ñoqui',
-  },
-  {
-    word: 'upite',
-    definition: 'sinónimo de cola, trasero.',
-    example:
-      'che alguno vio el control remoto?" "hmm ni idea" "a ver Ivo, levantá el upite',
-  },
-  {
-    word: 'gamba',
-    definition: 'sinónimo de pierna.',
-    example:
-      'dale Luly, que casi llegamos al lago!!" "si si pero vayamos más lento Agus, mis gambas no dan más',
-  },
-  {
-    word: 'bocha',
-    definition: 'sinónimo de un montón.',
-    example:
-      'che Tito, al final vamos a su casa a cenar hoy. qué llevamos?" "no se preocupen, ya cocinamos una bocha de empanadas. traigan helado si quieren',
-  },
-  {
-    word: 'asado',
-    definition: 'carne vacuna cocinada lentamente a las brasas.',
-    example:
-      'che por qué no invitaron a Martín este finde?" "es que no aplaudió a Javi por el asado que hizo el domingo, mientras todo el resto aplaudíamos. medio tensa la cosa',
-  },
-  {
-    word: 'orsai',
-    definition: 'posición adelantada, off-side.',
-    example:
-      'naaaa no me jodas, eso fue orsai!!" "lpm siempre robando este equipo',
-  },
-  {
-    word: 'punga',
-    definition: 'ladrón que hurta objetos de carteras o abrigos.',
-    example:
-      'chau Ma, me voy al centro!!" "adiós Lina! tené cuidado con los pungas, acordate de no guardar el celu en el bolsillo',
-  },
-  {
-    word: 'ceibo',
-    definition: 'árbol de la flor nacional del mejor país del mundo.',
-    example:
-      'hola Mónica! por casualidad viste a Wendy 🐈?" "sabés que no? seguro anda durmiendo sobre el ceibo de los vecinos!',
-  },
-  {
-    word: 'facha',
-    definition:
-      'se usa para referirse a alguien bien arreglado, con buen aspecto.',
-    example:
-      'Pablo, te gusta como me quedo el corte?" "te quedo bárbaro, alta facha amigo! a cual peluquería fuiste?',
-  },
-  {
-    word: 'skere',
-    definition: 'dícese de algo que va a estar bueno, de "lets get it"',
-    example:
-      'hola Fran, salimos a comer afuera hoy no? skerry!!" "jajaja es SKERE abu, pero sí! tengo muchas ganas!',
-  },
-  {
-    word: 'lompa',
-    definition: 'sinónimo de pantalón.',
-    example:
-      'che Pau se nota mucho la mancha que tengo en el lompa? cometí un error al sentarme en el pasto" "noo ni se nota, no te preocupes!',
-  },
-  {
-    word: 'truco',
-    definition: 'juego de cartas popular en el mejor país.',
-    example:
-      'Solchi, le decimos a las chicas de ir a la plaza?" "dale, y llevemos cartas pa jugar al truco!',
+    'Llegas a desaprobar y te voy a ramia de las mechas.',
   },
   {
     word: 'choto',
-    definition: 'sinóninimo de algo feo, no agradable. (enviada por @camdesk)',
+    definition: 'Expresion comodin, mas relacionadad con el miembro masculino.',
     example:
-      'que choto que estuvo hoy el boludle!" " posta, decí que lo saqué en 5 intentos',
+    'Nada me sale bien, me cago en el choto',
   },
   {
-    word: 'pique',
-    definition: 'dícese de un breve corrida o trote hacia algún lugar.',
+    word: 'papia',
+    definition: 'Comer.',
     example:
-      'che Maru, a que no te echás un pique al súper para comprar unos tomates?" "dale Pa, me das plata?',
+    '¡Ya está la comida, vengan a papiar!',
   },
   {
-    word: 'zapan',
-    definition: 'panza.',
+    word: 'bollo',
+    definition: 'golpe de puño.',
     example:
-      'Pedro ya estamos listos, vamos?" "vayan yendo, me duele un poco la zapán, prefiero quedarme',
+    'Portate bien porque te estás ganando un bollo',
   },
   {
-    word: 'banda',
-    definition: 'mucha cantidad',
-    example:
-      'traje coca para el fernet!" "uuuf, pero ya tenemos una banda de coca Lean',
-  },
-  {
-    word: 'chivo',
-    definition: 'olor corporal',
-    example:
-      'tengo ganas de volver a clase de manera presencial!" "postaa, aunque no extraño el olor a chivo del bondi',
-  },
-  {
-    word: 'gorra',
-    definition: 'policía, vigilante (despectivo)',
-    example: 'che Justi, no se puede fumar acá" "dale amiga no seas gorra!',
-  },
-  {
-    word: 'funyi',
-    definition: 'sinónimo de sombrero',
-    example:
-      'eu como vas con las clases de tango?" "bárbaro, en cualquier momento me compro el funyi',
-  },
-  {
-    word: 'piola',
-    definition: 'dícese de algo bueno o interesante.',
-    example:
-      'ya escuchaste a la banda de rock que te pasé?" "ehhh.. todavía no" "dale Manuuu, escuchala que está piola!',
-  },
-  {
-    word: 'grosa',
-    definition: 'dícese de una persona genial, o muy buena (en algo).',
-    example:
-      'che conociste a Flor al final, no? qué tal te pareció?" "siii! una grosa total! la tiene re clara',
-  },
-  {
-    word: 'guaso',
-    definition: 'hombre, fulano, tipo (Córdoba).',
-    example:
-      'Agus, escuchaste la barbaridad que dijo Miguel? que ignorante por dios!" "si... la verdad, un pobre guaso',
-  },
-  {
-    word: 'zafar',
-    definition: 'liberarse de una situación con lo mínimo indispensable.',
-    example:
-      'no quiero bajarla, pero rendís el examen el lunes no?" "si... pero no entiendo mucho el tema, dudo que vaya a zafar',
-  },
-  {
-    word: 'pinta',
-    definition: 'buena apariencia.',
-    example:
-      'uuuf esos ravioles tienen muy buena pinta! los hiciste vos?" "ojalá!! los compré acá a la vuelta',
-  },
-  {
-    word: 'minga',
-    definition: 'usase para negar lo que dice alguien fuertemente.',
-    example:
-      'Trini me prestás la remera de encaje para la salida de hoy?" "minga!! la última vez la manchaste toda',
-  },
-  {
-    word: 'lorca',
-    definition: 'vesre de "calor".',
-    example:
-      'uyy, que lorca que hace afuera!" "en serio, no entiendo al "team verano"',
-  },
-  {
-    word: 'yerba',
+    word: 'paila',
     definition:
-      'hojas desecadas, ligeramente tostadas usadas para elaborar el mate.',
+    'Persona con orejas grandes.',
     example:
-      'vamos afuera a tomar unos mates? está lindo el dia" "dale, esperame que voy al super a comprar yerba y vamos',
+    'Vea esas semejantes pailas que tiene.',
   },
   {
-    word: 'garra',
-    definition: 'sinónimo de esfuerzo (en deportes).',
+    word: 'apuna',
+    definition: 'Malestar en el oído por la altura.',
     example:
-      'viste la garra que puso Messi? y después algunos lo critican..." "hay gente que habla por hablar nomás',
+    'Iba subiendo a Tafí Del Valle y me a dió la apuna.',
   },
   {
-    word: 'nashe',
+    word: 'chuño',
+    definition: 'sinónimo de vómito.',
+    example:
+    'Vea ese chuño que pegó el Nico.',
+  },
+  {
+    word: 'fiero',
+    definition: 'Persona de poco atractivo visual, sinónimo de feo.',
+    example:
+    'So ma fiero que el pingo.',
+  },
+  {
+    word: 'croto',
+    definition: 'Persona desarreglada.',
+    example:
+    'Anda ponete unas zapatillas, andás bien croto.',
+  },
+  {
+    word: 'macho',
+    definition: 'Tercera persona de una relación amorosa,sinónimo de amante.',
+    example:
+    'A la Maria le han dao la cana con el macho.',
+  },
+  {
+    word: 'tacho',
+    definition: 'Contenedor de basura, tambien utilizado para nombrar al valde o cubeta.',
+    example:
+    'Andá tirá la basura en el tacho',
+  },
+  {
+    word: 'sanwi',
+    definition: 'Sándwich (normalmente de milanesa).',
+    example:
+    'Vamo a comé un sanwi con mirinda.',
+  },
+  {
+    word: 'choro',
+    definition: 'Ladrón.',
+    example:
+    'Lo han pillao al choro en la esquina, vamo a ve quien es.',
+  },
+  {
+    word: 'sonso',
+    definition: 'Sinónimo de "tonto"',
+    example:
+    'Chango como vas a pisar aca, ¿Ves que sos sonso?',
+  },
+  {
+    word: 'ladia',
+    definition: 'De costado.',
+    example:
+    'Venía en la moto el otro dia, y se me la ladiao, casi me caigo.',
+  },
+  {
+    word: 'ocote',
+    definition: 'Expresión vulgar para nombrar a la cola.',
+    example:
+    'Vea ese semejante que tenes para aprobar con 6.',
+  },
+  {
+    word: 'jaldo',
+    definition: 'Actual gobernador de la provincia de Tucumán',
+    example:
+    '',
+  },
+  {
+    word: 'ortia',
+    definition: 'Expresion vulgar de cuando te tocan la cola.',
+    example:
+    'Eh dejen de ortia eh, no sean abusos.',
+  },
+  {
+    word: 'chape',
+    definition: 'Sinónimo de beso.',
+    example:
+    'Al menos un chape me tenes que dar.',
+  },
+  {
+    word: 'ñoqui',
+    definition: 'Empleado público que no trabaja.',
+    example:
+    'Ninguno hace nada, El delegado es semajante ñoqui.',
+  },
+  {
+    word: 'pilla',
+    definition: 'Expresion con 2 siginificados proviene de atrapar, y de persona dificil de engañanar.',
+    example:
+    'El choro se dejó pillá por la polecia.',
+  },
+  {
+    word: 'chaja',
+    definition: 'Expresion utilizada para el amigo que le gusta mirar a las mujeres de sus amigos.',
+    example:
+    'Chango como te vas a levantar a la ex de tu mejor amigo, so alto chajá vo.',
+  },
+  {
+    word: 'yutas',
+    definition: 'Expresión utilizada para no entrar al colegio en la etapada de la adolescencia.',
+    example:
+    'Si supiera mi mamá las veces que me hice la yuta.',
+  },
+  {
+    word: 'preña',
     definition:
-      'dícese de algo que está muy bueno; palabra popularizada por el youtuber Coscu.',
+    'Sinónimo de embarazo',
     example:
-      'ayer mire el twitch del Spreen por primera vez Pa, estuvo re nashee" "no se qué es nalle y quién es Esprin, me explicás?',
+    'Ya la han preñao a la de la esquina de nuevo.',
   },
   {
-    word: 'rajar',
-    definition: 'irse rápidamente.',
+    word: 'julio',
+    definition:
+    'Julio Argentino Roca, ex presidente de la nación, histórico personaje ilustre de Tucumán.',
     example:
-      'che Mery, parece que en cualquier momento se larga a llover no?" "posta eh, juntemos las cosas y rajemos',
+    '',
   },
   {
-    word: 'fulbo',
-    definition: 'fútbol.',
+    word: 'juira',
+    definition: 'Expresión para que se vaya alguien.',
     example:
-      'eu Juani, te copás el domingo venir a jugar un fulbo con lospi?" "dalee, dónde nos juntamos?',
+    'Juira perro!',
   },
   {
-    word: 'plomo',
-    definition: 'dícese de una persona o cosa molesta, pesada.',
+    word: 'lules',
+    definition: 'Departamento de Tucumán.',
     example:
-      'me crucé a José en la calle y me tuvo ahí dando charla por media hora, no pude escapar" "jodemeee, qué plomo!',
+    'Ahí en Lules hay semajantes minitas.',
   },
   {
-    word: 'bajon',
-    definition: 'depresión, falta de ánimo.',
+    word: 'pingo',
+    definition: 'Expresion comodin, mas relacionada con el miembro masculino.',
     example:
-      'che loco, si salimos segundos en la fase de grupos del mundial puede que juguemos contra Francia en octavos" "naaaaa que bajón',
+    'Me cago en el pingo, Que calor del pingo.',
   },
   {
-    word: 'napia',
-    definition: 'sinónimo de nariz.',
+    word: 'uruda',
+    definition: 'Persona del sexo femenino con una particularidad grande.',
     example:
-      'ayer me levanté de la cama medio rápido. me desmayé y me di la napia contra el piso" "no wacho que dolor',
+      'Que uruda que so vo',
   },
   {
-    word: 'curro',
-    definition: 'sinónimo de estafa, o trabajo fácil para ganar dinero.',
+    word: 'idiai',
+    definition: 'Expresión tucumana que significa ¿Y ahora?.',
     example:
-      'che en qué anda laburando Martín estos días?" "ehh no sé con qué curro anda ahora, siempre encuentra algo diferente para vender',
+      'Idiai, que ya venís?',
+  },
+  {
+    word: 'comue',
+    definition: 'Expresion utilizada para decir ¿COMO ES?.',
+    example:
+    'Pasame la comué que está ahí.',
+  },
+  {
+    word: 'pirao',
+    definition: 'Se escapó',
+    example: 'Estaba sacando un dorao y se me lo a pirao chango podes creer.',
+  },
+  {
+    word: 'vacia',
+    definition: 'Expresion utilizada para decir TOMEMOS ALCOHOL.',
+    example:
+    'Escucha ese temaaaa, VACIAAAAAA.',
+  },
+  {
+    word: 'crios',
+    definition: 'Niños.',
+    example:
+    'El otro dia mi hermana me a dejao con los crios, son unos demonios.',
+  },
+  {
+    word: 'afana',
+    definition: 'Sinónimo de robo.',
+    example:
+    'A la salida del boliche me han afanao el celu.',
+  },
+  {
+    word: 'bulla',
+    definition: 'Ruido.',
+    example:
+    '¡Dejen de hacer bulla que está durmiendo el abuelo!',
+  },
+  {
+    word: 'churo',
+    definition: 'Gracioso, amigable.',
+    example:
+    'De churo que so vo jaja.',
+  },
+  {
+    word: 'mishi',
+    definition: 'Gato.',
+    example:
+    'Sacalo al mishi de la mesa!',
+  },
+  {
+    word: 'patia',
+    definition:
+    'Expresion utilizada proveniente del verbo PATEAR.',
+    example:
+    'Patiá po fuerte Guillermo, que queri coloca.',
+  },
+  {
+    word: 'pucho',
+    definition: 'Cigarrillo.',
+    example:
+      'Convidame un pucho, no seas aca.',
+  },
+  {
+    word: 'pecha',
+    definition: 'Empujar.',
+    example:
+      'Eh dejen de pecha, si vamos a pasar todos.',
+  },
+  {
+    word: 'putia',
+    definition:
+      'Sinónimo de insultar',
+    example:
+      'El borracho en la plaza me estaba meta putia porque no le di plata para el vino.',
+  },
+  {
+    word: 'toria',
+    definition: 'Ladrido de los perros.',
+    example:
+      'Pancho levantate a ver que estan meta toria los perros.',
+  },
+  {
+    word: 'upiti',
+    definition: 'Persona entrometida.',
+    example:
+      'Ve por upiti a vos tambien te han estafao.',
+  },
+  {
+    word: 'ondia',
+    definition: 'Expresion proventiente del acto de cazar con GOMERA - ONDA.',
+    example:
+      'Vamo a ondia unas palomas.',
+  },
+  {
+    word: 'giria',
+    definition: 'Escupir a alguien.',
+    example:
+      'Estos ql estan meta giria, parecen guanacos.',
+  },
+  {
+    word: 'Tordo',
+    definition: 'Sinónimo de amante.',
+    example:
+      'Pobre Raúl, la Karen salió con el tordo ayer cuando él estaba trabajando.',
+  },
+  {
+    word: 'Lance',
+    definition: 'Sinónimo de oportunidad',
+    example:
+      'No estudié pero me tiro un lance.',
+  },
+  {
+    word: 'queno',
+    definition: 'Palabra utilizada para afirmar o asegurar algo.',
+    example:
+      'Layla está pa una polarizada quenó? ',
+  },
+  {
+    word: 'tarro',
+    definition: 'Palabra con múltiples significados. Puede ser suerte o un recipiente.',
+    example:
+      'Aprobé la historia con 6, tuve semejante tarro.',
   }
 ]
 

@@ -12,20 +12,13 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
       isOpen={isOpen}
       handleClose={handleClose}
     >
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        este es un juego argentino basado en el código open-source de Wordle -{' '}
+      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+        este es un juego tucumano basado en el código de Boludle -{' '}
         <a
           href="https://github.com/sjaquemate/boludle"
           className="underline font-bold"
         >
-          mira el código argentino acá
-        </a>{' '}
-        -{' '}
-        <a
-          href="https://github.com/cwackerfuss/react-wordle"
-          className="underline font-bold"
-        >
-          y el código original acá
+          Mira el código acá
         </a>{' '}
       </p>
     </BaseModal>
